@@ -84,7 +84,7 @@ else
 	     									
 	     										$mobile = "91".$_POST['mob'];
 										        $message = rawurlencode("Hello, ".$_SESSION['user_name']."! \nYour One Time Password(OTP) is ".$h."");
-										        $key1 = "Vgu6qMxiv0O96Ssn49k6fg";
+										        $key1 = "[YOUR_API_KEY]";
 										        
 										        $url = 'http://login.smsgatewayhub.com/api/mt/SendSMS?APIKey=' . $key1 . '&senderid=TESTIN&channel=2&DCS=0&flashsms=0&number=' . $mobile . '&text=' . $message . '&route=1;';
 										        
@@ -174,7 +174,7 @@ else
 		<div class="fling-minislide">
 		<?php
 
-			$business = file_get_contents("https://newsapi.org/v2/top-headlines?category=business&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+			$business = file_get_contents("https://newsapi.org/v2/top-headlines?category=business&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($business,true);
 
 		$i = 0;
@@ -195,7 +195,7 @@ else
 			}
 		}
 
-		$entertainment = file_get_contents("https://newsapi.org/v2/top-headlines?category=entertainment&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+		$entertainment = file_get_contents("https://newsapi.org/v2/top-headlines?category=entertainment&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($entertainment,true);
 
 		$i = 0;
@@ -216,7 +216,7 @@ else
 			}
 		}
 
-		$sport = file_get_contents("https://newsapi.org/v2/top-headlines?category=sports&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+		$sport = file_get_contents("https://newsapi.org/v2/top-headlines?category=sports&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($sport,true);
 
 		$i = 0;
@@ -237,7 +237,7 @@ else
 			}
 		}
 
-		$tech = file_get_contents("https://newsapi.org/v2/top-headlines?category=technology&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+		$tech = file_get_contents("https://newsapi.org/v2/top-headlines?category=technology&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($tech,true);
 
 		$i = 0;
