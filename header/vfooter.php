@@ -43,7 +43,7 @@
 
 		<div id="fbox3">
 			<h2>Contact</h2>
-			<p>For any enquiry or any type of suggetions or complains, please contact us.</p>
+			<p>For any enquiry or any type of suggestions or complaints, please contact us.</p>
 			<ul class="style5">
 				<li class="first"><span class="address">Address</span> <span class="address-01">G/455 Deep Kamal Shopping Center <br />
 					Surat, Gujarat 395010</span> </li>
@@ -56,7 +56,7 @@
 </div>
 <div id="footer">
 	<br>
-	<p>&copy; All rights reserved. Design by <a href="https://www.instagram.com/immmaiyani/" target="_blank"><b>ImMMaiyani</b></a>.</p>
+	<p>&copy; All rights reserved. Design by <a href="https://www.linkedin.com/in/manish-maiyani/" target="_blank"><b>Manish Maiyani</b></a>.</p>
 </div>
 
 </body>
