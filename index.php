@@ -45,7 +45,7 @@
 		include('header/h-index.php');
 		include('user/config.php');
 		//old apikey=e12dcd7ad7084d6ea57296ba0f9a1261
-		$business = file_get_contents("https://newsapi.org/v2/top-headlines?category=business&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+		$business = file_get_contents("https://newsapi.org/v2/top-headlines?category=business&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($business,true);
 
 		$i = 0;
@@ -67,7 +67,7 @@
 			}
 		}
 
-		$entertainment = file_get_contents("https://newsapi.org/v2/top-headlines?category=entertainment&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+		$entertainment = file_get_contents("https://newsapi.org/v2/top-headlines?category=entertainment&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($entertainment,true);
 
 		$i = 0;
@@ -88,7 +88,7 @@
 			}
 		}
 
-		$sport = file_get_contents("https://newsapi.org/v2/top-headlines?category=sports&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+		$sport = file_get_contents("https://newsapi.org/v2/top-headlines?category=sports&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($sport,true);
 
 		$i = 0;
@@ -109,7 +109,7 @@
 			}
 		}
 
-		$tech = file_get_contents("https://newsapi.org/v2/top-headlines?category=technology&apiKey=e51c0854f7674ca3a2ed71251667f054&language=en");
+		$tech = file_get_contents("https://newsapi.org/v2/top-headlines?category=technology&apiKey=[YOUR_API_KEY]&language=en");
 		$js = json_decode($tech,true);
 
 		$i = 0;
