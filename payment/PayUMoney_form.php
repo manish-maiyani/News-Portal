@@ -31,8 +31,8 @@ $posted['phone'] = $row['Mobile_No'];
 $posted['productinfo'] = $payment_info;
 
 //echo '<pre>';print_r($row);
-$MERCHANT_KEY = "X30xbPqQ";
-$SALT = "hWDqztfBes";
+$MERCHANT_KEY = "[YOUR_MERCHANT_KEY]";
+$SALT = "[YOUR_SALT_KEY]";
 // Merchant Key and Salt as provided by Payu.
 
 $PAYU_BASE_URL = "https://sandboxsecure.payu.in";		// For Sandbox Mode
